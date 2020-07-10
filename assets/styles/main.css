@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #FCBF49;
+    --secondary-color: ;
+    --sub-color: rgba(255, 255, 255, 0.9);
+    --bg-ash: #F8F8F8;
+    --text-color: #001F30;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--text-color);
+}
+
+/* Header Section */
+
+.nav-link {
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.active {
+    color: var(--primary-color) !important;
+}
+
+.btn-small {
+    background-color: var(--primary-color);
+    padding: .25rem 1rem;
+}
+
+.hero {
+    width: 100%;
+    height: 90vh;
+    background: url('/assets/img/hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    margin-top: 7rem;
+    width: 40%;
+    text-align: center;
+}
+
+.btn-large {
+    background-color: var(--primary-color);
+    padding: .5rem 2.5rem;
+    font-weight: bold;
+}
+
+/* Services Section */
+.icons-div {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.font-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.main-service {
+    width: 100%;
+    height: 85vh;
+    background: url('/assets/img/services-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.service-content {
+    background: #fff;
+    width: 25%;
+    border: .3rem solid var(--primary-color);
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    bottom: 10%;
+}
+
+.housing {
+    width: 79%;
+    margin: auto;
+    text-align: left;
+    font-size: .8rem;
+}
+
+.service-btn {
+    position: relative;
+    left: 60%;
+}
+
+.team-hr {
+    margin: 1rem auto; 
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 16px;
+    width: 20%;
+}
+
+.team-hr:after {
+    content: '\f2e7';
+    font-family: "FontAwesome";
+    background: #fff;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.team-img {
+    height: 300px;
+}
+.team-jobs {
+    background: var(--primary-color);
+    width: 100%;
+    margin: auto;
+}
+
+.team-card {
+    width: 10% !important;
+    background-color: var(--bg-ash);
+    padding: 0 !important;
+}
