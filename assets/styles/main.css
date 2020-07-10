@@ -241,7 +241,7 @@ p {
 /* Contact */
 .colored-div {
     background: var(--primary-color);
-    width: 350px;
+    width: 370px;
     height: 250px;
 
 }
@@ -249,16 +249,20 @@ p {
 .inner-div {
     background: var(--secondary-color);
     color: var(--primary-color);
-    width: 425px;
+    width: 450px;
     height: 150px;
     position: relative;
     top: -200px;
-   left: 30px;
+   left: 40px;
 }
 
 form {
     width: 90%;
     position: relative;
+    margin-left: 6rem;
+}
+input, textarea {
+    border: .05rem solid var(--text-color) !important;
 }
 .send-btn {
     padding: .2rem 1.5rem;
