@@ -201,14 +201,17 @@ p {
     background-repeat: no-repeat;
 }
 
+.test-slider {
+    z-index: 80000 !important;
+    position: relative;
+    top: 50px;
+}
+
 .testimony-card {
     margin: 2rem auto;
     width: 50%;
     background: #fff;
-    position: relative;
-    top: 50px;
     color: var(--text-color) !important;
-    z-index: 80000;
 }
 
 .test-icon {
@@ -234,6 +237,10 @@ p {
 
 /* Gallery */
 
+#gallery {
+    z-index: 2;
+}
+
 .gal-img {
     width: 200px;
 }
@@ -253,17 +260,20 @@ p {
     height: 150px;
     position: relative;
     top: -200px;
-   left: 40px;
+    left: 40px;
 }
 
 form {
     width: 90%;
     position: relative;
-    margin-left: 6rem;
+    margin-left: 5.5rem;
 }
-input, textarea {
+
+input,
+textarea {
     border: .05rem solid var(--text-color) !important;
 }
+
 .send-btn {
     padding: .2rem 1.5rem;
     position: absolute;
@@ -273,6 +283,7 @@ input, textarea {
 footer {
     background: var(--secondary-color);
     color: #ffffff;
+    position: relative;
 }
 
 .footer-icon {
@@ -281,4 +292,19 @@ footer {
 
 footer a {
     color: #ffffff;
+}
+
+.btn-scroller {
+    background: var(--primary-color);
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    right: 50px;
+    top: 40px
+}
+
+.btn-goUp {
+    width: 25px;
+    margin: 0 auto;
+    padding-left: .5rem;
 }
