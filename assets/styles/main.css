@@ -132,3 +132,11 @@ body {
     background-color: var(--bg-ash);
     padding: 0 !important;
 }
+
+/* Testimony Section */
+
+#testimony {
+    background: url('/assets/img/testimony-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
