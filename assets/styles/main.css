@@ -22,6 +22,7 @@ html {
 
 body {
     color: var(--text-color);
+    font-family: 'Lora', serif;
 }
 
 .sub-heading {
@@ -91,7 +92,7 @@ p {
 
 .service-content {
     background: #fff;
-    width: 25%;
+    width: 29%;
     border: .3rem solid var(--primary-color);
     position: absolute;
     top: 10%;
@@ -100,10 +101,10 @@ p {
 }
 
 .housing {
-    width: 79%;
+    width: 80%;
     margin: auto;
     text-align: left;
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 .service-btn {
