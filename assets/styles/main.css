@@ -257,7 +257,7 @@ p {
 .inner-div {
     background: var(--secondary-color);
     color: var(--primary-color);
-    width: 450px;
+    width: 455px;
     height: 150px;
     position: relative;
     top: -200px;
