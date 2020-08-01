@@ -107,7 +107,7 @@ p {
     width: 80%;
     margin: auto;
     text-align: left;
-    font-size: 1.1rem;
+    font-size: .9rem;
 }
 
 .appear-md {
@@ -381,7 +381,7 @@ footer a {
 
     .housing {
         width: 90%;
-        font-size: 1.2rem;
+        font-size: .8rem;
     }
 
 
@@ -628,7 +628,7 @@ footer a {
 
     .housing {
         width: 90%;
-        font-size: 1.1rem;
+        font-size: .9rem;
         font-weight: bold;
     }
 
